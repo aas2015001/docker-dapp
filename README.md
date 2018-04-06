@@ -34,7 +34,7 @@ This is a sample project for creating a DApp (Decentralized application) with do
             ports:
             - 8080:8080
             volumes:
-            - ./source/:/source
+            - ../source/:/source
     ```
 
 * Create a Dockerfile for a Truffleapp into docker-truffleapp directory
