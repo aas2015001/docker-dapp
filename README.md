@@ -63,13 +63,13 @@ This is a sample project for creating a DApp (Decentralized application) with do
     2. Open Metamask and configure custom private network (http://dockerhost:8545)
     3. Gets a list accounts from ganache container
         ```docker
-        docker logs -f dockerdapp_ganachecli_1
+        docker logs -f docker_ganachecli_1
         ```
     3. Import an account with the private key retrevie from ganache container logs
 
 * Create a Truffle application
     ```docker
-    docker exec -it dockerdapp_truffleapp_1 bash
+    docker exec -it docker_truffleapp_1 bash
     truffle unbox webpack
     truffle compile
     truffle migrate
